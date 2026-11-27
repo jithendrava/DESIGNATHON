@@ -1,0 +1,48 @@
+{
+  "model": "balanced logistic regression",
+  "dataset": "diabetic_data.csv",
+  "train_encounters": 81477,
+  "test_encounters": 20289,
+  "train_patients": 57214,
+  "test_patients": 14304,
+  "positive_rate": 0.1069,
+  "roc_auc": 0.6657,
+  "average_precision": 0.2123,
+  "confusion_matrix": [
+    [
+      12174,
+      5946
+    ],
+    [
+      947,
+      1222
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9278256230470239,
+      "recall": 0.6718543046357616,
+      "f1-score": 0.7793604558112737,
+      "support": 18120.0
+    },
+    "1": {
+      "precision": 0.17047991071428573,
+      "recall": 0.5633932687874597,
+      "f1-score": 0.2617543108064689,
+      "support": 2169.0
+    },
+    "accuracy": 0.660259253782838,
+    "macro avg": {
+      "precision": 0.5491527668806548,
+      "recall": 0.6176237867116106,
+      "f1-score": 0.5205573833088712,
+      "support": 20289.0
+    },
+    "weighted avg": {
+      "precision": 0.8468614133743092,
+      "recall": 0.660259253782838,
+      "f1-score": 0.7240256572250732,
+      "support": 20289.0
+    }
+  }
+}
