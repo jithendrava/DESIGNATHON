@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+AZURE_OPENAI_ENV
+
+# React build artifacts
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/*.tsbuildinfo
+frontend-react/vite.config.js
+frontend-react/vite.config.d.ts
+
+# IDE and system
+.vscode/
+*.tmp
+~$*
+
+# Presentation working files
+fill_presentation.py

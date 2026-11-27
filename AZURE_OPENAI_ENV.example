@@ -1,0 +1,6 @@
+# Optional Azure OpenAI configuration.
+# If these variables are omitted, the app uses a safe offline draft fallback.
+AZURE_OPENAI_ENDPOINT=https://YOUR-RESOURCE.openai.azure.com
+AZURE_OPENAI_API_KEY=YOUR_API_KEY
+AZURE_OPENAI_DEPLOYMENT=YOUR_DEPLOYMENT_NAME
+AZURE_OPENAI_API_VERSION=2024-10-21
